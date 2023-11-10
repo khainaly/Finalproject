@@ -1,0 +1,74 @@
+body {
+  background-image: url('background.jpg'); /* Replace 'your-image.jpg' with the path to your image */
+  background-size: cover; /* Adjust this property based on your needs */
+  background-repeat: no-repeat; /* Prevent the image from repeating */
+  background-attachment: fixed; /* Optional: Keep the image fixed when scrolling */
+}
+.icon {
+  width: 50px; /* Set the desired width for your icon */
+  height: 50px; /* Set the desired height for your icon */
+}
+#container {
+  width: 90%;
+  left: 50%;
+  position: absolute;
+  transform: translate(-50%, 0%);
+  border-radius: 10px;
+  background: rgba(245, 245, 220, 0.789);
+  color: black;
+  padding: 20px 5px;
+  border: ridge 10px rgb(135, 189, 255);
+  font-weight: bold;
+  overflow: auto; 
+  max-height: 80vh; 
+  text-align: center;
+}
+#searchInput {
+  display: flex;
+  flex: 1;
+  width: 94%;
+  padding: 15px;
+  border-radius: 10px;
+  border-color: transparent;
+  background-color: #e6e6e6;
+}
+#meanings-wrapper {
+  height: 200px;
+  overflow-y: auto;
+}
+#definition {
+  font-weight: bold;
+}
+#type {
+  font-weight: bold;
+}
+#word-wrapper {
+  border-bottom: 2px solid gray;
+  padding-bottom: 10px;
+}
+#meaning-header {
+  font-weight: bold;
+  color: red;
+}
+#synonyms-header {
+  font-weight: bold;
+  color: red;
+}
+#audio-icon {
+   width: 12px;
+   font-weight: bold;
+   margin-left: 3px;
+   margin-right: 10px;
+}
+#phonetic-container {
+  margin-right: 10px;
+}
+#country {
+  font: bold;
+}
+#definition {
+  font-family: monospace;
+  font-size: 12px;
+  font-style: italic;
+  line-height: 20px;
+}
